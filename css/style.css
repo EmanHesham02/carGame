@@ -1,0 +1,403 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:bottom;}
+
+body{
+   background: url(../pics/1.jpg)repeat;
+   font-family: 'Roboto', sans-serif;
+   font-size: 100%;
+   Overflow:hidden;
+
+
+}
+.Data {
+  width: 80%;
+  margin: 0 auto;
+}
+.Data h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin: 0px 0px 50px 0px;
+  font-family: 'Droid Serif', serif;
+}
+.Data-top {
+  background: #E1E1E1;
+  opacity: 0.8;
+  border-radius: 25px 25px 0px 0px;
+  -webkit-border-radius:  25px 25px 0px 0px;
+  -moz-border-radius: 25px 25px 0px 0px;
+  -o-border-radius: 25px 25px 0px 0px;
+  padding: 40px 60px;
+}
+.Data-top h1 {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 500;
+  color: #F45B4B;
+  margin: 0px 0px 20px 0px;
+}
+.Data-top h3 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #F45B4B;
+  margin: 0px 0px 20px 0px;
+}
+.Data-top input[type="text"] {
+	outline: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #818181;
+  padding: 15px 20px;
+  background: #CACACA;
+  border: 1px solid #ccc;
+  border-radius:25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -o-border-radius: 25px;
+  margin: 0px 0px 12px 0px;
+  width: 88%;
+  -webkit-appearance: none;
+}
+
+
+.Button input[type="submit"] , button {
+  background: #F45B4B;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 7px;
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  margin: 0px 7px 0px 3px;
+  outline: none;
+  border: none;
+  /* visibility: none; */
+}
+.Button input[type="submit"]:hover {
+	background:#818181;
+	transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+.Button {
+  text-align: right;
+}
+
+.Data-bottom {
+  background: #E15748;
+  padding: 30px 65px;
+  border-radius: 0px 0px 25px 25px;
+  -webkit-border-radius:  0px 0px 25px 25px;
+  -moz-border-radius: 0px 0px 25px 25px;
+  -o-border-radius: 0px 0px 25px 25px;
+  text-align: right;
+  border-top: 2px solid #AD4337;
+}
+
+.Data-bottom h5 {
+  font-size: 25px;
+  font-weight: 500;
+  color:#696969;
+}
+
+.Data-bottom h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color:#fff;
+}
+
+
+@media(max-width:1440px){
+.Data {
+  width: 35%;
+}
+}
+@media(max-width:1366px){
+.Data {
+  width: 37%;
+}
+}
+@media(max-width:1280px){
+.Data {
+  width: 40%;
+}
+}
+@media(max-width:1024px){
+.Data {
+  width: 48%;
+}
+}
+@media(max-width:768px){
+.Data {
+  width: 65%;
+}
+.Data-top h1 {
+  font-size: 25px;
+}
+
+
+.Data h2 {
+  font-size: 28px;
+}
+
+}
+@media(max-width:640px){
+.Data-top h1 {
+  font-size: 23px;
+}
+.Button input[type="submit"] {
+  font-size: 15px;
+  width: 22%;
+}
+.Data-top input[type="text"] {
+  padding: 12px 20px;
+}
+.Data-top input[type="password"] {
+  padding: 12px 20px;
+}
+
+}
+@media(max-width:480px){
+.Data {
+  width: 80%;
+}
+.Data-top h1 {
+  font-size: 21px;
+}
+.Data-top input[type="text"] {
+  width: 85%;
+}
+.Data-top {
+  padding: 30px 40px;
+}
+
+.Data h2 {
+  font-size: 25px;
+}
+}
+@media(max-width:320px){
+.Data {
+  width: 90%;
+}
+.Data-top {
+  padding: 20px 25px;
+}
+.Data-top input[type="text"] {
+  width: 81%;
+  padding: 10px 20px;
+  font-size: 13px;
+  margin: 0px 0px 7px 0px;
+}
+
+ html, body {
+    margin: 0; padding: 0;
+  }
+
+
+
+  .divx {
+		position: absolute;
+		font-size: 2em;
+		margin-top: 0;
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		text-shadow: 2px 3px 3px gray;
+  }
+
+
+
+
+
+}
+
+
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: none; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #E1E1E1;
+    opacity: 0.8;
+    /* margin: 0px auto; */
+    padding: 0;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    background:url(game-over.png) center  ;
+    background-repeat: no-repeat;
+    background-size: 50% ;
+    height: 50%;
+    margin: 3px auto 0;
+    /* position: relative; */
+
+
+    /* height:500px;
+    width:700px;  */
+
+}
+.modalBut
+{
+  /* position: relative; */
+  position: absolute;
+
+  margin: auto;
+  bottom: 0;
+ left: 15%;
+}
+@media (min-Width:1360px) {
+  .modalBut
+  {
+    /* position: relative; */
+    position: absolute;
+
+    margin: auto;
+    bottom: 0;
+   left: 35%;
+  }
+}
+
+.modal-content Button {
+  /* //position:absolute; */
+  display:inline-block;
+  margin: 10px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color:#E15748;
+  border: none;
+  border-radius: 15px;
+  /* box-shadow: 0 9px #999; */
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 05px #666;
+  transform: translateY(4px);
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/*How to play modal2..........*/
+
+/* The Modal (background) */
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 60px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content2 {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    height: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    background:url(pic3.png) no-repeat bottom ;
+
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close2 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal-body2 {padding: 2px 16px;
+
+     font-size:20px;
+     color: rgb(255, 255, 255);
+
+
+}

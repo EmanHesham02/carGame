@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Car Racing</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+		<!-- Custom Theme files -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1.0, user-scalable=0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:500,900italic,900,400italic,100,700italic,300,700,500italic,100italic,300italic,400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<script type='text/javascript' >
+			var currentPlayer ;
+			var currentScore ;
+		</script>
+		<script src="p5.min.js"></script>
+		<script src="p5.dom.min.js"></script>
+		<script src="p5.sound.js"></script>
+		<script src="script.js"></script>
+		<script src="storageJs.js"></script>
+		<style>
+
+    .divx {
+		position: absolute;
+		font-size: 2em;
+		margin-top: 0;
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		text-shadow: 2px 3px 3px gray;
+	}
+
+  </style>
+	</head>
+	<body id="GameBody"  style="position: relative">
+
+		<div id="Data" class="Data">
+			<h2 style="color:Black"></h2>
+			<div class="Data-top">
+				<h1 id="playerData">Player Data</h1>
+				<h3 id="playerData">Enter Button Will Appear After loading</h3>
+
+
+					<input type="text" id="playerNamefield" name="User_code" placeholder="player Name" onkeyup="validatePlayer()" required>
+			    	  <div id="startButton" class="Button" style="display:none" >
+									<button id="startButton" value="Enter" style="width:60px" onclick="newGame()">Enter</button>
+							</div>
+							<button id="myBtn" onclick='window.location.href = "Scoreboard";'>Scoreboard</button>
+
+									<br><br>
+			</div>
+			<div class="Data-bottom">
+				<h3>Enjoy the<h5>Game</h5></h3>
+				<centeR><button id="myBtn" onclick="HowPlay()">How To Play</button></centeR>
+
+			</div>
+		</div>
+
+
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+       <div class="modal-content" style="font-size:16px">
+				 <br><br>
+					<center><h2 id="ScoreP">Score is</h2></center>
+
+				<div class="modalBut">
+					<button class="button" style="font-size:0.8em" id="playAgain">Play Again</button>
+					<button class="button" style="font-size:0.8em" id="ScoreBoard" onclick="openScoreboard()">Scoreboard</button>
+				 </div>
+			 </div>
+
+
+    </div>
+
+	<!--/how /to Play  Modal-->
+
+	   <div id="myModal2" class="modal2">
+
+	  <!-- Modal content -->
+	  <div class="modal-content2">
+	    <div class="modal-header2">
+	      <span class="close2">&times;</span>
+	    </div>
+	    <div class="modal-body2">
+	      <p>- Use Arrow Keys to Move the car</p>
+	      <p>- Or Just Tilt You Phone</p><br><br>
+	      <p>- Press Spacebar or touch screen to fire</p>
+	      <p>- Avoid hitting any near car</p>
+	    </div>
+
+	  </div>
+
+	</div>
+	</body>
+</html>

@@ -1,0 +1,206 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+
+img {
+max-width: 100%;
+height: auto;
+width: auto; }
+
+body{
+    background: url("1.jpg")repeat;
+
+}
+.Container
+{
+    width: 100%;
+     margin: 0 auto;
+     width: 100%;
+}
+.logo
+{
+    position: absolute;
+    padding:0px 0px 0px 0px;
+    margin: 0 auto;
+    width: 100%;
+    opacity: 0.7;
+    text-align: center;
+    
+}
+#leaderboard {
+ 
+    opacity: 0.8;
+    padding:350px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+
+}
+
+#leaderboard li {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+}
+#leaderboard #players li {
+    display:block;
+    clear: both;
+    position: absolute;
+    
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    width: 100%;
+
+}
+#leaderboard #players li.header {
+    font-weight: bold;
+    background: #E15748;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+  -webkit-border-radius:  25px 25px 0px 0px;
+  -moz-border-radius: 25px 25px 0px 0px;
+  -o-border-radius: 25px 25px 0px 0px;
+}
+#leaderboard #players {
+    
+      margin: 0 auto;
+    padding: 0;
+
+    position: relative;
+    height: 132px;
+
+
+}
+#leaderboard #players div {
+    display: block;
+    float: right;
+    overflow: hidden;
+    padding: 5px;
+    margin: 0 auto;
+}
+#leaderboard .player {
+    background: -moz-linear-gradient(top, #feffff 0%, #e0dace 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffff), color-stop(100%,#e0dace));
+}
+#leaderboard .rank {
+    width: 30%;
+}
+#leaderboard .name {
+    width: 30%;
+}
+#leaderboard .score {
+    width: 30%;   
+}
+
+
+
+
+
+
+@media (max-width: 600px) and (min-width: 361px) {
+
+
+#leaderboard {
+ 
+    opacity: 0.8;
+    padding:350px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+
+}
+
+
+#leaderboard #players li {
+    display:block;
+    clear: both;
+    position: absolute;
+    text-align: center;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    width: 300px;
+
+}
+#leaderboard #players li.header {
+    font-weight: bold;
+    background: #E15748;
+    width: 300px;
+    text-align: center;
+    border-radius: 25px 25px 0px 0px;
+  -webkit-border-radius:  25px 25px 0px 0px;
+  -moz-border-radius: 25px 25px 0px 0px;
+  -o-border-radius: 25px 25px 0px 0px;
+}
+
+
+#leaderboard .rank {
+    width: 30%;
+}
+#leaderboard .name {
+    width: 30%;
+}
+#leaderboard .score {
+    width: 30%;   
+}
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 360px) and (min-width: 50px) {
+
+#leaderboard {
+ 
+    opacity: 0.8;
+    padding:350px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+
+}
+
+
+#leaderboard #players li {
+    display:block;
+    clear: both;
+    position: absolute;
+    text-align: center;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    width: 200px;
+
+}
+#leaderboard #players li.header {
+    font-weight: bold;
+    background: #E15748;
+    width: 200px;
+    text-align: center;
+    border-radius: 25px 25px 0px 0px;
+  -webkit-border-radius:  25px 25px 0px 0px;
+  -moz-border-radius: 25px 25px 0px 0px;
+  -o-border-radius: 25px 25px 0px 0px;
+}
+
+#leaderboard .rank {
+    width: 25%;
+}
+#leaderboard .name {
+    width: 25%;
+}
+#leaderboard .score {
+    width: 25%;   
+}
+
+
+
+}
